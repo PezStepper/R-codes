@@ -5,3 +5,5 @@ Some slight tidying up of output file names is required (they say test).
 The final code to create the summed scores matrix (vector list) isn't quite working.
 
 Need to add parallel processing (not working)
+
+Some of these files are test files to learn the processes. I need to create a workflow diagram with the correct scripts to use
