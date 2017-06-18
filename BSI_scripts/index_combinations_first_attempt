@@ -1,7 +1,0 @@
-These codes were used during the first attempt at finding possible cominations of the index. 
-
-Some slight tidying up of output file names is required (they say test). 
-
-The final code to create the summed scores matrix (vector list) isn't quite working.
-
-Need to add parallel processing (not working)
