@@ -92,7 +92,7 @@ object.size(Coal.scores)
 
 head(Coal.scores)
 
-write.table(Coal.scores, file="Coal_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Coal.scores, file="Coal_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

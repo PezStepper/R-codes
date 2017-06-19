@@ -92,7 +92,7 @@ object.size(Coppermine.scores)
 
 head(Coppermine.scores)
 
-write.table(Coppermine.scores, file="Coppermine_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Coppermine.scores, file="Coppermine_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

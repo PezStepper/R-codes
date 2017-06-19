@@ -92,7 +92,7 @@ object.size(Mangatautou.scores)
 
 head(Mangatautou.scores)
 
-write.table(Mangatautou.scores, file="Mangatautou_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Mangatautou.scores, file="Mangatautou_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

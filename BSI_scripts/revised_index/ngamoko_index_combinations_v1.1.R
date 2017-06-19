@@ -92,7 +92,7 @@ object.size(Ngamoko.scores)
 
 head(Ngamoko.scores)
 
-write.table(Ngamoko.scores, file="Ngamoko_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Ngamoko.scores, file="Ngamoko_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

@@ -92,7 +92,7 @@ object.size(Tamaki.scores)
 
 head(Tamaki.scores)
 
-write.table(Tamaki.scores, file="Tamaki_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Tamaki.scores, file="Tamaki_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

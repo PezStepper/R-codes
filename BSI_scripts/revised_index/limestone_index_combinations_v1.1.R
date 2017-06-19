@@ -92,7 +92,7 @@ object.size(Limestone.scores)
 
 head(Limestone.scores)
 
-write.table(Limestone.scores, file="Limestone_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Limestone.scores, file="Limestone_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

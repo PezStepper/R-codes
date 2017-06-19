@@ -92,7 +92,7 @@ object.size(Matanganui.Tributary.scores)
 
 head(Matanganui.Tributary.scores)
 
-write.table(Matanganui.Tributary.scores, file="Matanganui_Tributary_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Matanganui.Tributary.scores, file="Matanganui_Tributary_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 

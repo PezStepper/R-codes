@@ -92,7 +92,7 @@ object.size(Mangapuaka.scores)
 
 head(Mangapuaka.scores)
 
-write.table(Mangapuaka.scores, file="Mangapuaka_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Mangapuaka.scores, file="Mangapuaka_scores.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 
