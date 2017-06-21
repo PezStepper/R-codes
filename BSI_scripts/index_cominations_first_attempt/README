@@ -1,8 +1,5 @@
-These codes were used during the first attempt at finding possible cominations of the index. 
-
-Some slight tidying up of output file names is required (they say test). 
-
-The final code to create the summed scores matrix (vector list) isn't quite working.
+These codes were used during the first attempt at finding possible cominations of the index, and are to be used in the BSI paper. 
+The first run of codes has been setup to leave the Limestone creek data out as a validation site.
 
 Need to add parallel processing (not working)
 
