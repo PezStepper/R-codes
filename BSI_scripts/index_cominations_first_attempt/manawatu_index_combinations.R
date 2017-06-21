@@ -79,7 +79,7 @@ parameter17 <- as.vector(Manawatu.Scaled.T[1:4,17])
 
 setwd("F:/Andrew BSI DATA") #output files too large for home drive so set to local HDD
 
-manawatu.combinations <- expand.grid(parameter1
+Manawatu.combinations <- expand.grid(parameter1
                                      , parameter2
                                      , parameter3
                                      , parameter4
@@ -99,26 +99,26 @@ manawatu.combinations <- expand.grid(parameter1
 )
 
 
-object.size(manawatu.combinations)
+object.size(Manawatu.combinations)
 
-head(manawatu.combinations)
+head(Manawatu.combinations)
 
 #### Export Data ####
 
-write.table(manawatu.combinations, file="manawatu_combinations.txt", sep="\t")
+write.table(Manawatu.combinations, file="Manawatu_combinations.txt", sep="\t")
 
 #### Sum rows ####
 
-manawatu.scores <- as.matrix(rowSums(manawatu.combinations))
+Manawatu.scores <- as.matrix(rowSums(Manawatu.combinations))
 
-object.size(manawatu.scores)
+object.size(Manawatu.scores)
 
-head(manawatu.scores)
+head(Manawatu.scores)
 
-write.table(manawatu.scores, file="manawatu_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
+write.table(Manawatu.scores, file="Manawatu_scores_test.txt", sep="\t") #assumes we are saving tot he working directory
 
 #### Plotting Data ####
 
-png(file="manawatu_scores_histogram.png")
-hist(manawatu.scores, main = "Manawatu Score Distribution", xlab = "Score")
+png(file="Manawatu_scores_histogram.png")
+hist(Manawatu.scores, main = "Manawatu Score Distribution", xlab = "Score")
 dev.off()
