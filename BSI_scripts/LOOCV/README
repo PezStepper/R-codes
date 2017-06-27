@@ -1,0 +1,4 @@
+This folder contains files used in the Leave One Out Cross Validation procedure. 
+
+LOOCV_bsi.R script is used to find the best index. You need to manually leave a site out each time you run this code. 
+I have not set this up to automatically do LOOCV.
